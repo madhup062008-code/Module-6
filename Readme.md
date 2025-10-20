@@ -29,6 +29,7 @@ To create an **abstract class** named `Shape` with an **abstract method** `calcu
 ---
 
 ## 💻 Program
+'''
 from abc import ABC, abstractmethod
 import math
 
@@ -61,6 +62,7 @@ rect.calculate_area()
 
 circle = Circle()
 circle.calculate_area()
+'''
 
 
 ## Output
@@ -129,6 +131,7 @@ To write a Python program that demonstrates class inheritance by creating a pare
 7. Output will demonstrate method overriding: printing `"fish"` and `"shark"` accordingly.
 
 ## 💻 PROGRAM:
+'''
 class Fish:
     def type(self):
         print("fish")
@@ -149,6 +152,7 @@ for obj in (obj_goldfish, obj_hammerhead):
 
 ## RESULT
 The above python program is executed successfully
+'''
 
 
 
@@ -231,6 +235,7 @@ To create two specific classes — `Beans` and `Mango`. Then, create a **generic
 ---
 
 ## 💻 Program
+'''
 class Beans:
     def type(self):
         print("Vegetable")
@@ -252,7 +257,7 @@ mango_obj = Mango()
 
 func(beans_obj)
 func(mango_obj)
-
+'''
 
 ## Output
 ![alt text](image-4.png)
